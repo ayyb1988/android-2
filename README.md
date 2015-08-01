@@ -1,4 +1,3 @@
-# android
 2015年8月2日03:15:33
 ####Android ObjectAnimator 动画，透明度，平移，旋转，拉伸，背景颜色，动画集合
 ___
