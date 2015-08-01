@@ -1,4 +1,14 @@
 2015年8月2日03:15:33
+[新浪微博](http://weibo.com/u/5540590540)
+![](https://github.com/yaohp/android/blob/master/pics/6D4043BDFD1F37B922C4C0D86B604043.png?raw=true)
+#####git 使用流程
+1.`git init`
+2.`git clone https://github.com/yaohp/android.git`
+3.`CRUD操作`
+4.`git add *.*`
+5.`git push`
+6.`enter username`
+7.`enter password`
 ####Android ObjectAnimator 动画，透明度，平移，旋转，拉伸，背景颜色，动画集合
 ___
 * alpha
