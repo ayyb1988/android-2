@@ -1,17 +1,16 @@
-2015年8月2日03:15:33
-[新浪微博](http://weibo.com/u/5540590540)
+[我的新浪微博](http://weibo.com/u/5540590540)
 ![](https://github.com/yaohp/android/blob/master/pics/6D4043BDFD1F37B922C4C0D86B604043.png?raw=true)
 #####git 使用流程
-1.`git init`
-2.`git clone https://github.com/yaohp/android.git`
-3.`CRUD`
-4.`git add *.*`
-5.`git commit`
-6.`input commit message...`
-7.`:wq enter`
-8.`git push`
-9.`input username`
-10.`input password`
+1. `git init`
+2. `git clone https://github.com/yaohp/android.git`
+3. `CRUD`
+4. `git add *.*`
+5. `git commit`
+6. `input commit message...`
+7. `:wq enter`
+8. `git push`
+9. `input username`
+10. `input password`
 ####Android ObjectAnimator 动画，透明度，平移，旋转，拉伸，背景颜色，动画集合
 ___
 * alpha
