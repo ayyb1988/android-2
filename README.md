@@ -15,7 +15,7 @@
 ####Android ObjectAnimator 动画，透明度，平移，旋转，拉伸，背景颜色，动画集合
 ___
 * alpha
-```
+```java
 		//透明度变化动画
         //第一个参数为 view对象，第二个参数为 动画改变的类型，第三，第四个参数依次是开始透明度和结束透明度。
         ObjectAnimator alphaAnimator = ObjectAnimator.ofFloat(iv, "alpha", 1f, 0f);
@@ -49,7 +49,7 @@ ___
         });
 ```
 * scanX
-```
+```java
         //左右拉伸动画
         ObjectAnimator scaleX = ObjectAnimator.ofFloat(iv, "scaleX", 1f, 0f);
         scaleX.setDuration(3000);
@@ -59,7 +59,7 @@ ___
         scaleX.start();
 ```
 * scanY
-```
+```java
         //上下拉伸动画
         ObjectAnimator scaleY = ObjectAnimator.ofFloat(iv, "scaleY", 1f, 0f);
         scaleY.setDuration(3000);
@@ -69,7 +69,7 @@ ___
         scaleY.start();
 ```
 * translate
-```
+```java
         //平移动画,三四个参数是从什么坐标移动到什么坐标
         //ObjectAnimator translate = ObjectAnimator.ofFloat(iv, "x", iv.getX(), 0f);
         ObjectAnimator translate = ObjectAnimator.ofFloat(iv, "y", iv.getY(), -20f);
@@ -80,7 +80,7 @@ ___
         translate.start();
 ```
 * rotate
-```
+```java
         //rotate 旋转动画,纵向旋转180度（上下翻转）
         ObjectAnimator rotate = ObjectAnimator.ofFloat(iv, "rotationX", 0f, 180f);
         rotate.setDuration(3000);
@@ -89,7 +89,7 @@ ___
         rotate.setRepeatMode(Animation.REVERSE);
         rotate.start();
 ```
-```
+```java
         //rotate 旋转动画,横向旋转180度（左右翻转）
         ObjectAnimator rotate = ObjectAnimator.ofFloat(iv, "rotationY", 0f, 180f);
         rotate.setDuration(3000);
@@ -99,7 +99,7 @@ ___
         rotate.start();
 ```
 * backgroudColor
-```
+```java
         //改变背景颜色的动画
         ObjectAnimator backgroundColor = ObjectAnimator.ofInt(iv,
                 "backgroundColor", Color.RED, Color.BLUE, Color.GRAY,
@@ -121,7 +121,7 @@ ___
         backgroundColor.start();
 ```
 * AnimatorSet（动画集合）
-```
+```java
         //动画集合播放
         AnimatorSet animatorSet = new AnimatorSet();
 
